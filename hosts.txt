@@ -1,0 +1,32 @@
+#this is the default hosts file for the dns proxy
+#format: hostname regex -> ip address
+
+#Wii U Update Blocker
+^nus\.cdn\.shop\.wii\.com$ 127.0.0.1
+^nus\.cdn\.wup\.shop\.nintendo.net$ 127.0.0.1
+^nus\.wup\.shop\.nintendo.net$ 127.0.0.1
+^nus\.c\.shop\.nintendowifi\.net$ 127.0.0.1
+
+#Exploit Entries
+$manuals\.playstation\.net$ ME
+[a-z\d\-]+\.net\.playstation\.net$ ME
+[a-z\d\-]+\.ps4\.update\.playstation\.net$ ME
+^gs2\.ww\.prod\.dl\.playstation\.net$ ME
+
+#PS4 Update Blocker
+[a-z\d\-]+\.207\.net$ 127.0.0.1
+[a-z\d\-]+\.akadns\.net$ 127.0.0.1
+[a-z\d\-]+\.akamai\.net$ 127.0.0.1
+[a-z\d\-]+\.akamaiedge\.net$ 127.0.0.1
+[a-z\d\-]+\.cddbp\.net$ 127.0.0.1
+[a-z\d\-]+\.ea\.com$ 127.0.0.1
+[a-z\d\-]+\.edgekey\.net$ 127.0.0.1
+[a-z\d\-]+\.edgesuite\.net$ 127.0.0.1
+[a-z\d\-]+\.llnwd\.net$ 127.0.0.1
+[a-z\d\-]+\.playstation\.com$ 127.0.0.1
+[a-z\d\-]+\.playstation\.net$ 127.0.0.1
+[a-z\d\-]+\.playstation\.org$ 127.0.0.1
+[a-z\d\-]+\.ribob01\.net$ 127.0.0.1
+[a-z\d\-]+\.sbdnpd\.com$ 127.0.0.1
+[a-z\d\-]+\.scea\.com$ 127.0.0.1
+[a-z\d\-]+\.sonyentertainmentnetwork\.com$ 127.0.0.1
