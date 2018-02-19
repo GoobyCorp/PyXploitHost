@@ -1,5 +1,7 @@
 #this is the default hosts file for the dns proxy
 #format: hostname regex -> ip address
+#shortcuts can be used like so:
+#ME = local IP address
 
 #Wii U Update Blocker
 ^nus\.cdn\.shop\.wii\.com$ 127.0.0.1
