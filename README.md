@@ -1,4 +1,5 @@
-### PyXploitHost - A multiplatform implementation of PiXploitHost
+PyXploitHost - A multiplatform implementation of PiXploitHost
+-------------------------------------------------------------
 
 This is made with the intention of making PiXploitHost work on anything and not just a raspberry pi because not everybody has one :3
 
